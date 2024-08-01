@@ -6,7 +6,6 @@ import { DateTime } from 'luxon';
 dotenv.config();
 
 const bot_token = process.env.BOT_TOKEN;
-const jombsChatId = process.env.JOMBS_CHAT;
 const chatId = process.env.CHAT_ID;
 const bot = new TelegramBot(bot_token, { polling: true })
 
